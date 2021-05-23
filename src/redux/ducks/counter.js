@@ -1,5 +1,4 @@
-const INCREMENT = "increment";
-const DECREMENT = "decrement";
+import { INCREMENT, DECREMENT } from "./contants";
 
 export const increment = () => ({
   type: INCREMENT
